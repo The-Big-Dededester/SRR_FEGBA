@@ -27,7 +27,7 @@ BYTE 0 0x3e 10 0x0 0xFF	False ; SHORT 0 // trainee class
 BYTE 0 0x47 10 0x0 0xFF	False ; SHORT 0 // trainee class
 BYTE 0 0 20 0x0 0xFF	False ; SHORT 0 // Anyone can promote at level 20 
 //BYTE Eirika 0 0 0x0 0xFF	True ; SHORT 0x86 //AmeliaDeathFlag - Eirika cannot promote if Amelia has died. 
-//BYTE 0 Archer 12 0xA 0xFF False; SHORT 0 
+BYTE 0 0 15 0xA 0xFF False; SHORT 0 
 // But archers can promote at level 12+ if in chapter 0xA - Distant Blades or later, including Eirika Archer. 
 WORD 0xFFFFFFFF 0xFFFFFFFF // Terminator. 
 
